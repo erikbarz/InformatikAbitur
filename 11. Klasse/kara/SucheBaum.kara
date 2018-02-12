@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlStateMachines version="KaraX 1.0 kara">
+    <XmlStateMachine startState="b-vorn" actor="Kara">
+        <XmlState y="76.0" x="277.0" name="b-vorn2" finalstate="false">
+            <XmlSensors>
+                <XmlSensor name="treeFront"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState y="134.0" x="113.0" name="b-vorn" finalstate="false">
+            <XmlSensors>
+                <XmlSensor name="treeFront"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState y="170.0" x="427.0" name="Stop" finalstate="true">
+            <XmlSensors/>
+        </XmlState>
+        <XmlTransition to="Stop" from="b-vorn2">
+            <XmlSensorValues>
+                <XmlSensorValue value="1" name="treeFront"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="turnLeft"/>
+                <XmlCommand name="turnLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition to="b-vorn" from="b-vorn">
+            <XmlSensorValues>
+                <XmlSensorValue value="2" name="treeFront"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="move"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition to="b-vorn2" from="b-vorn">
+            <XmlSensorValues>
+                <XmlSensorValue value="1" name="treeFront"/>
+            </XmlSensorValues>
+            <XmlCommands/>
+        </XmlTransition>
+    </XmlStateMachine>
+    <XmlSensorDefinition name="treeFront" identifier="treeFront" description="Baum vorne?"/>
+    <XmlSensorDefinition name="treeLeft" identifier="treeLeft" description="Baum links?"/>
+    <XmlSensorDefinition name="treeRight" identifier="treeRight" description="Baum rechts?"/>
+    <XmlSensorDefinition name="mushroomFront" identifier="mushroomFront" description="Pilz vorne?"/>
+    <XmlSensorDefinition name="onLeaf" identifier="onLeaf" description="Kleeblatt unten?"/>
+</XmlStateMachines>

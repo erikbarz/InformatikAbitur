@@ -1,0 +1,49 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+geschrieben von erik barz
+=================================================================== */
+
+
+
+/* ================================================================ 
+Begriff:				Erklärung:				Attribute:
+solid					durchgezogen
+text-decoration									undeline, overline, blink, none
+font-weight				schriftfette/ -breite	bold, light
+=================================================================== */
+#head {
+  height: 100px;
+  margin: 10px;
+  background-color: #ffff00;
+
+#center-con {
+  width: auto;
+  margin: 0px 180px;
+  background-color: #ffffc6;
+}
+#left-con {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width: 160px;
+  height: 300px;
+  background-color: #ffcc00;
+}
+#right-con {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  width: 160px;
+  height: 300px;
+  background-color: #ffcc00;
+}
+				
+
+
+/*jede Seite*/
+body 		{	font-family: "Times New Roman", Times, serif;
+				background-color:#000;
+				color: #00CC00;
+				padding: 0px;
+ 				margin: 0px;}

@@ -1,0 +1,134 @@
+object monopoly: TFGUIFormular
+  Left = 12
+  Top = 26
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'C:\Users\Erik\Privat\informatik\monopoly\monopoly.jfm'
+  ClientHeight = 662
+  ClientWidth = 1008
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = True
+  Position = poDesigned
+  Visible = True
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 16
+  object lbHead: TLabel
+    Tag = -1
+    Left = 488
+    Top = 8
+    Width = 111
+    Height = 33
+    HelpType = htKeyword
+    Caption = 'Monopoly'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbSpieler: TLabel
+    Tag = -1
+    Left = 8
+    Top = 48
+    Width = 289
+    Height = 19
+    HelpType = htKeyword
+    Caption = 'Mit wie vielen Spielern m'#246'chten Sie spielen?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbSpielerF: TLabel
+    Tag = -1
+    Left = 408
+    Top = 48
+    Width = 219
+    Height = 19
+    HelpType = htKeyword
+    Caption = 'Bitte '#252'berpr'#252'fen Sie ihre Eingabe!'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object tfSpieler: TEdit
+    Tag = -2
+    Left = 312
+    Top = 48
+    Width = 25
+    Height = 19
+    HelpType = htKeyword
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object buSpieler: TButton
+    Tag = -4
+    Left = 352
+    Top = 48
+    Width = 43
+    Height = 19
+    HelpType = htKeyword
+    Caption = 'OK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object tfSpielername: TEdit
+    Tag = -2
+    Left = 32
+    Top = 72
+    Width = 305
+    Height = 27
+    HelpType = htKeyword
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    Text = 'Bitte hier den Namen von Spieler x eingeben!'
+  end
+  object buSpielername: TButton
+    Tag = -4
+    Left = 352
+    Top = 80
+    Width = 43
+    Height = 19
+    HelpType = htKeyword
+    Caption = 'OK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+end

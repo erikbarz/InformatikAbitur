@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=y
+comment0.target=WuerfelSpiel(double)
+comment1.target=int\ wurf()
+comment2.target=void\ spiel()
+comment3.target=double\ getkonto()
+comment4.target=void\ berechneGewinn()
+numComments=5

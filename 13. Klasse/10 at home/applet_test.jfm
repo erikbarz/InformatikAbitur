@@ -1,0 +1,25 @@
+object applet_test: TFGUIFormular
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 
+    'C:\Dokumente und Einstellungen\erik\Eigene Dateien\Privat\inform' +
+    'atik\13 nagel\10 at home\applet_test.jfm'
+  ClientHeight = 266
+  ClientWidth = 292
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = True
+  Position = poDesigned
+  Visible = True
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 16
+end

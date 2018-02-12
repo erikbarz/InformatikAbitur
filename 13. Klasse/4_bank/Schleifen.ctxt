@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=void\ whileSchleife()
+comment1.target=void\ doWhileSchleife()
+comment10.params=n
+comment10.target=int\ summeBis_While(int)
+comment11.params=n
+comment11.target=int\ summeBis_DoWhile(int)
+comment12.params=n
+comment12.target=int\ summeBis_for(int)
+comment2.target=void\ forSchleifeTest19()
+comment3.target=void\ forSchleifeTest20()
+comment4.target=void\ forSchleifeTest21()
+comment5.target=void\ forSchleifeTest22()
+comment6.target=void\ forSchleifeTest23()
+comment7.target=void\ forSchleifeTest25()
+comment8.target=void\ forSchleifeTest27()
+comment9.target=void\ forSchleifeTest28()
+numComments=13

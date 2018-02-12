@@ -1,0 +1,25 @@
+[Files]
+File0=snow0.class
+
+[Box:  - snow0]
+X=20
+Y=40
+MinVis=0
+
+[Diagram]
+OffsetX=0
+OffsetY=0
+ShowAssoc=1
+Visibility=0
+ShowParameter=0
+SortOrder=0
+ShowIcons=0
+Fontname=MS Sans Serif
+Fontsize=10
+
+[Window]
+Left=66
+Top=87
+Width=932
+Height=266
+

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Zeichnung()
+comment0.text=\nKonstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Zeichnung\n\n
+comment1.target=void\ sonnenUntergang()
+comment1.text=\nzeichne\ erstellt\ die\ Zeichnung\ \:\ ein\ Haus\ mit\ sonne\n\n
+comment2.target=void\ zeichne()
+numComments=3

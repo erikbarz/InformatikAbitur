@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Auto()
+comment1.params=tv\ bst\ km\ pers\ mpers\ leer\ maxgesamt
+comment1.target=Auto(double,\ double,\ double,\ int,\ int,\ int,\ int)
+comment10.target=int\ getPersonen()
+comment11.target=double\ getVerbrauch()
+comment12.target=double\ getAktuellesGewicht()
+comment13.params=neuerStand
+comment13.target=void\ tachoZurueckdrehen(int)
+comment2.params=liter
+comment2.target=void\ tanken(double)
+comment3.target=void\ anzeigen()
+comment4.params=kilometer
+comment4.target=void\ fahren(double)
+comment5.params=pers
+comment5.target=void\ einsteigen(int)
+comment6.params=pers
+comment6.target=void\ aussteigen(int)
+comment7.params=km\ kmh
+comment7.target=void\ fahrdauerBerechnen(int,\ double)
+comment8.params=kmh
+comment8.target=double\ bremsweg(int)
+comment9.target=double\ getMaxStrecke()
+numComments=14

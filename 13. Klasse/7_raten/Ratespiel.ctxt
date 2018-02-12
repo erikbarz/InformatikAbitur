@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Ratespiel()
+comment1.target=void\ starten()
+comment2.params=x
+comment2.target=String\ eingabe(int)
+comment3.target=boolean\ getGewonnen()
+comment4.target=int\ getVersuche()
+numComments=5

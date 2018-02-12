@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlWorld version="KaraX 1.0 pythonkara" sizey="9" sizex="9">
+    <XmlWallPoints>
+        <XmlPoint y="4" x="0"/>
+        <XmlPoint y="4" x="8"/>
+        <XmlPoint y="2" x="0"/>
+        <XmlPoint y="2" x="1"/>
+        <XmlPoint y="2" x="2"/>
+        <XmlPoint y="2" x="3"/>
+        <XmlPoint y="2" x="4"/>
+        <XmlPoint y="2" x="5"/>
+        <XmlPoint y="2" x="6"/>
+        <XmlPoint y="2" x="7"/>
+        <XmlPoint y="2" x="8"/>
+        <XmlPoint y="3" x="8"/>
+        <XmlPoint y="5" x="8"/>
+        <XmlPoint y="6" x="8"/>
+        <XmlPoint y="7" x="8"/>
+        <XmlPoint y="8" x="8"/>
+        <XmlPoint y="8" x="7"/>
+        <XmlPoint y="8" x="6"/>
+        <XmlPoint y="8" x="5"/>
+        <XmlPoint y="8" x="4"/>
+        <XmlPoint y="8" x="3"/>
+        <XmlPoint y="8" x="2"/>
+        <XmlPoint y="8" x="1"/>
+        <XmlPoint y="8" x="0"/>
+        <XmlPoint y="7" x="0"/>
+        <XmlPoint y="6" x="0"/>
+        <XmlPoint y="5" x="0"/>
+        <XmlPoint y="3" x="0"/>
+    </XmlWallPoints>
+    <XmlObstaclePoints/>
+    <XmlPaintedfieldPoints>
+        <XmlPoint y="3" x="1" type="0"/>
+        <XmlPoint y="3" x="2" type="0"/>
+        <XmlPoint y="3" x="3" type="0"/>
+        <XmlPoint y="4" x="3" type="0"/>
+        <XmlPoint y="4" x="4" type="0"/>
+        <XmlPoint y="3" x="4" type="0"/>
+        <XmlPoint y="3" x="5" type="0"/>
+        <XmlPoint y="3" x="6" type="0"/>
+        <XmlPoint y="4" x="6" type="0"/>
+        <XmlPoint y="5" x="6" type="0"/>
+        <XmlPoint y="5" x="5" type="0"/>
+        <XmlPoint y="6" x="5" type="0"/>
+        <XmlPoint y="6" x="4" type="0"/>
+        <XmlPoint y="6" x="3" type="0"/>
+        <XmlPoint y="6" x="2" type="0"/>
+        <XmlPoint y="7" x="2" type="0"/>
+        <XmlPoint y="7" x="3" type="0"/>
+        <XmlPoint y="7" x="4" type="0"/>
+        <XmlPoint y="7" x="5" type="0"/>
+        <XmlPoint y="7" x="6" type="0"/>
+    </XmlPaintedfieldPoints>
+    <XmlKaraList>
+        <XmlKara y="4" x="1" name="Kara" direction="3"/>
+    </XmlKaraList>
+    <XmlStreetList/>
+</XmlWorld>

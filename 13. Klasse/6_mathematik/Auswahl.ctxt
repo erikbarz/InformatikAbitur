@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ z
+comment0.target=Auswahl(int,\ int,\ int)
+comment1.params=m\ n
+comment1.target=void\ minimumKonsole(int,\ int)
+comment2.target=int\ minimum1()
+comment3.target=void\ minimumAusgeben()
+comment4.target=void\ minimumAus3()
+comment5.target=void\ derGroesseNach()
+numComments=6

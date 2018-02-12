@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Zahlenraten()
+comment1.params=y
+comment1.target=boolean\ gleich(int)
+comment1.text=public\ void\ spiel()\ \n{\nfor\ (i\=1;\ 1<5;\ i\=i+1)\n{\nkleiner(int\ y);\ngroesser(int\ y);\ngleich(int\ y);\n}\n}\n\n
+comment2.params=y
+comment2.target=boolean\ groesser(int)
+comment3.params=y
+comment3.target=boolean\ kleiner(int)
+comment4.target=void\ neueZZ()
+comment5.target=int\ getZZ()
+numComments=6

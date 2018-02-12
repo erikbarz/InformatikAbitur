@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlStateMachines version="KaraX 1.0 kara">
+    <XmlStateMachine startState="klee" actor="Kara">
+        <XmlState y="55.0" x="55.0" name="klee" finalstate="false">
+            <XmlSensors>
+                <XmlSensor name="onLeaf"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState y="53.0" x="374.0" name="Stop" finalstate="true">
+            <XmlSensors/>
+        </XmlState>
+        <XmlTransition to="klee" from="klee">
+            <XmlSensorValues>
+                <XmlSensorValue value="0" name="onLeaf"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="removeLeaf"/>
+                <XmlCommand name="move"/>
+            </XmlCommands>
+        </XmlTransition>
+    </XmlStateMachine>
+    <XmlSensorDefinition name="treeFront" identifier="treeFront" description="Baum vorne?"/>
+    <XmlSensorDefinition name="treeLeft" identifier="treeLeft" description="Baum links?"/>
+    <XmlSensorDefinition name="treeRight" identifier="treeRight" description="Baum rechts?"/>
+    <XmlSensorDefinition name="mushroomFront" identifier="mushroomFront" description="Pilz vorne?"/>
+    <XmlSensorDefinition name="onLeaf" identifier="onLeaf" description="Kleeblatt unten?"/>
+</XmlStateMachines>

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=na\ vn\ jahr
+comment0.target=Person(String,\ String,\ int)
+comment0.text=\nKonstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Person\n\n
+comment1.target=String\ persDaten()
+comment2.params=neu
+comment2.target=void\ setName(String)
+comment3.target=String\ getName()
+comment4.params=aktJahr
+comment4.target=int\ getAlter(int)
+numComments=5

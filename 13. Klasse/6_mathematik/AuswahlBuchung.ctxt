@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=anzahl
+comment0.target=AuswahlBuchung(int)
+comment1.target=void\ berechneGebuehren()
+numComments=2
